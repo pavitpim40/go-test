@@ -1,8 +1,7 @@
 module github.com/bxcodec/go-clean-arch
 
 go 1.22
-
-toolchain go1.22.6
+toolchain go1.23.7
 
 require (
 	github.com/go-faker/faker/v4 v4.3.0
@@ -12,7 +11,7 @@ require (
 	github.com/pdfcpu/pdfcpu v0.9.1
 	github.com/sirupsen/logrus v1.9.3
 	github.com/stretchr/testify v1.9.0
-	golang.org/x/sync v0.8.0
+	golang.org/x/sync v0.12.0
 	gopkg.in/DATA-DOG/go-sqlmock.v1 v1.3.0
 	gopkg.in/go-playground/validator.v9 v9.31.0
 )
